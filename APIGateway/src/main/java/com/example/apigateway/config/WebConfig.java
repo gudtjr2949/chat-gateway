@@ -11,7 +11,7 @@ public class WebConfig implements WebFluxConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")
-                .allowedOrigins("http://220.122.59.199:3000")
+                .allowedOrigins("http://220.122.91.67:3000")
 //                .allowedOrigins("http://localhost:3000")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .exposedHeaders("location")
